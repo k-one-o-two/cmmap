@@ -1,0 +1,57 @@
+[
+  { "name": "h2", "children": [] },
+  {
+    "name": "div",
+    "children": [
+      {
+        "name": "BreedsSort",
+        "children": [
+          { "name": "span", "children": [] },
+          {
+            "name": "div",
+            "children": [
+              { "name": "input", "children": [] },
+              { "name": "label", "children": [] }
+            ]
+          },
+          {
+            "name": "div",
+            "children": [
+              { "name": "input", "children": [] },
+              { "name": "label", "children": [] }
+            ]
+          },
+          {
+            "name": "div",
+            "children": [
+              { "name": "input", "children": [] },
+              { "name": "label", "children": [] }
+            ]
+          }
+        ],
+        "isConditional": true,
+        "inImports": {
+          "componentName": "BreedsSort",
+          "src": "./components/breedsSort"
+        }
+      },
+      {
+        "name": "BreedSearch",
+        "children": [{ "name": "input", "children": [] }],
+        "inImports": {
+          "componentName": "BreedSearch",
+          "src": "./components/breedSearch"
+        }
+      },
+      {
+        "name": "AnotherCMP",
+        "children": [{ "name": "ClildCMP", "children": [] }]
+      }
+    ]
+  },
+  {
+    "name": "Breeds",
+    "children": [],
+    "inImports": { "componentName": "Breeds", "src": "./components/breeds" }
+  }
+]
